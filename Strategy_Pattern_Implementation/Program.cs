@@ -41,6 +41,7 @@ internal class Program
         while (true)
         {
             Console.WriteLine("Please select an action: 1, 2, 3 or 4");
+            paymentContext.GetBalance();
             Console.WriteLine("1. Pay");
             Console.WriteLine("2. Refund");
             Console.WriteLine("3. Get Balance");

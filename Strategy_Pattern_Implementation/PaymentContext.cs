@@ -43,7 +43,7 @@ public class PaymentContext
     }
 
     public void GetBalance() => 
-        Console.WriteLine("Your current balance is: {0}", 
+        Console.WriteLine("\nYour current balance is: {0}\n", 
             _paymentStrategy.GetBalance().ToString("F2"));
 
     public void ShowPaymentHistory() => _paymentStrategy.ShowPaymentHistory();
